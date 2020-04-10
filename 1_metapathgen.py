@@ -195,8 +195,8 @@ def final_simM(r):
 ############################################################################################
 ######             Execution starts here                       #############################
 
-datapath = input()
-simstoragepath = input()
+datapath = input("Enter path of the folder where data is stored: ")
+simstoragepath = input("enter path od the folder where you want to store similarities: ")
 f = open(datapath+"/user_movie.dat", "r")
 data = list()
 for i in f:
